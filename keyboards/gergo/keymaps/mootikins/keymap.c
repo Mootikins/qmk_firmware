@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |  CTRL  |   A  |   S  |  D   |   F  |   G  |  (   |                     |   )  |   H  |   J  |   K  |   L  | ;  : |  ' "   |
  * |--------+------+------+------+------+------+------|                     |------+------+------+------+------+------+--------|
  * |  SHIFT |   Z  |   X  |   C  |   V  |   B  |  )   | ,-------. ,-------. |   ]  |   N  |   M  | ,  < | . >  | /  ? |  = +   |
- * `--------------------------------------------------' |  DEL  | |  ESC  | `--------------------------------------------------'
+ * `--------------------------------------------------' |  ESC  | |  DEL  | `--------------------------------------------------'
  *                        .------.   ,-------.   ,------|-------| |-------|------.   ,-------.   ,------.
  *                        | LALT |   | SUPER |   |      |       | |       |      |   |  `/~  |   |  \ |  |
  *                        '------'   `-------'   | BSPC | NUMB  | | ENTER | SPCE |   `-------'   `------'
@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_gergo(
     KC_TAB,  KC_Q, KC_W, KC_E, KC_R,    KC_T,                                                     KC_Y,     KC_U,     KC_I,    KC_O,   KC_P,    KC_MINS,
     KC_LCTL, KC_A, KC_S, KC_D, KC_F,    KC_G,    KC_LPRN,                                KC_LBRC, KC_H,     KC_J,     KC_K,    KC_L,   KC_SCLN, KC_QUOTE,
-    KC_LSFT, KC_Z, KC_X, KC_C, KC_V,    KC_B,    KC_RPRN, KC_DEL,                KC_ESC, KC_RBRC, KC_N,     KC_M,     KC_COMM, KC_DOT, KC_SLSH, KC_EQL,
+    KC_LSFT, KC_Z, KC_X, KC_C, KC_V,    KC_B,    KC_RPRN, KC_ESC,                KC_DEL, KC_RBRC, KC_N,     KC_M,     KC_COMM, KC_DOT, KC_SLSH, KC_EQL,
                                KC_LALT, KC_LGUI, KC_BSPC, MO(NUMB),      LT(EXT,KC_ENT), KC_SPC,  KC_GRAVE, KC_BSLASH
     ),
 /* Keymap 1: Pad/Function layer
